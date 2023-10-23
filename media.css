@@ -1,0 +1,147 @@
+@media(max-width:768px) {
+    .topnav {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .topnav a:not(:nth-child(-n+1)) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .topnav.responsive {
+        position: fixed;
+    }
+    
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: center;
+      color: rgb(255, 255, 255);
+    }
+   
+  }
+
+
+
+@media(max-width:768px) {
+    .row-1 {
+        display: block;
+    }
+
+    .wide-range h1 {
+        font-size: 3.5vw;
+    }
+
+    .footer-img {
+        margin-top: 436vw;
+        height: 18vw;
+    }
+
+    .footer-img img {
+        height: 10vw;
+        width: 70vw;
+    }
+
+    .footer-row-1 {
+        display: block;
+    }
+
+    footer {
+        height: 100%;
+
+    }
+
+    .col-2 {
+        padding-top: 4vw;
+    }
+
+    .logo {
+        display: flex;
+    }
+
+    .col-1 {
+        width: 68.104vw;
+        height: 70.229vw;
+        font-size: 4vw;
+    }
+
+    .col-1 h4 {
+        font-size: 2.5vw;
+        font-weight: 100;
+    }
+
+    .col-1 img {
+        width: 63.104vw;
+        height: 62.229vw;
+    }
+
+    .links {
+        display: block;
+        flex-direction: column;
+    }
+    .wide-range h1{
+        font-size: 4vw;
+    }
+    .col-2 img{
+        width: 20vw;
+    }
+    .topnav a img {
+        width: 7vw;
+    }
+    
+}
+
+@media (max-width:700px) {
+    .col-2 img {
+        width: 30vw;
+    }
+
+    .topnav a img {
+        width: 7vw;
+  
+    }
+    .wide-range h1{
+        font-size: 6vw;
+    }
+    .col-2 img{
+        width: 20vw;
+    }
+    
+     
+}
+
+@media(max-width:1228px) {
+    footer {
+        height: 100%;
+    }
+}
+@media(max-width:400px){
+    .home-image{
+       display: none;
+    }
+    .home-image1{
+        display: block;
+        width: 100vw;
+    }
+    .topnav a{
+        width: 20vw;
+    }
+    
+}
